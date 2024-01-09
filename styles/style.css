@@ -5,12 +5,451 @@
 /*header styles*/
 
 .header {
-    width: 84%;
+
+    width: 83%;
     height: max-content;
     margin: 0 auto;
-    background-image: url("/Banner\ Image.png");
+    background-image: url("/images/Banner\ Image.png");
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 16px;
+}
+
+.header .welcome-message {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 271px;
+    padding-bottom: 0;
+    margin-bottom: 16px;
+}
+.header .main-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 16px 25% 177px 25%;
+    margin-top: 0px;
+    border-radius: 16px;
+}
+/* Main Section Style */
+
+.main {
+    width: 83%;
+    margin: 0 auto;
+    text-align: center;
+}
+.main .offer h2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+.main .offer p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 0;
+}
+.main .offer h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+.invitation .invitation-message {
+    background-image: url("/images/Group\ 70.png"), url("/images/Vectorrr.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 25%, 100%;
+    background-position: right;
+    border-radius: 16px;
+    text-align: left;
+}
+.invitation .invitation-message h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding: 126px 552px 0px 126px;
+    text-align: left;
+}
+.invitation .invitation-message p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 497px 24px 126px;
+    text-align: left;
+}
+.invitation button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: none;
+    border: 0;
+    padding-left: 158px;
+    padding-bottom: 152px;
+}
+.invitation-place {
+    height: 100%;
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 120px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    padding-top: 100px;
+
+}
+.invitation .invitation-place .place {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
+
+}
+.invitation .invitation-place .place .place-highlight {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
+}
+.invitation-place .invitation-join-button {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+}
+.coming-soon {
+    display: flex;
+    text-align: left;
+
+}
+.coming-soon .comming-soon-left {
+    width: 33.33%;
+    margin: auto;
+}
+.coming-soon .comming-soon-left h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0;
+
+}
+.coming-soon .comming-soon-left h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+.coming-soon .comming-soon-left p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    margin: 0 0;
+
+}
+.comming-soon-center {
+    width: 33.33%;
+    margin: auto;
+}
+
+.comming-soon-center img {
+    justify-content: space-around;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+
+
+}
+.comming-soon-right {
+    width: 33.33%;
+    text-align: center;
+    margin: auto;
+
+}
+.comming-soon-right h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    margin: 0 68px;
+}
+.comming-soon-right p {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    margin: 20px auto;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.comming-soon-right img {
+    width: 140px;
+    height: 140px;
+    margin-right: 125px;
+}
+.functional {
+    margin-top: 120px;
+    text-align: center;
+}
+.functional h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 auto;
+
+}
+.functional h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 16px auto 20px;
+
+}
+.functional h2 span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+.functional p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    width: 60%;
+    margin: 0 auto;
+}
+/* I can fix this section */
+.functional .images {
+    background-image: url("/images/Group\ 75.png"), url("/images/Rectangle\ 1.png"), url("/images/Group\ 44.png"), url("/images/Rectangle\ 2.png");
+    background-size: 45%, 27%, 25%, 100%;
+    background-repeat: no-repeat;
+    background-position: left, right top, top, bottom;
+    height: 700px;
+    margin: 100px auto;
+}
+.portfolio {
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.portfolio h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 auto;
+
+}
+.portfolio h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 16px auto 22px;
+
+}
+.portfolio p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+    width: 896px;
+
+}
+.portfolio-image {
+    display: flex;
+
+}
+
+.portfolio-image img {
+    padding: 12px 24px;
+    padding-left: 0;
+    border-radius: 16px;
+    justify-content: center;
+}
+.newsletter {
+    margin-top: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+}
+
+.newsletter img {
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+}
+.newsletter h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0 auto;
+
+}
+.newsletter p {
+    margin: auto;
+    padding-top: 22px;
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.newsletter .subscribe {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 48px;
+}
+.newsletter .subscribe .subscribe-email {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: 0px;
+    padding-left: 35px;
+
+}
+.newsletter .subscribe .subscribe-button {
+    width: 210px;
+    color: #fff;
+    height: 72px;
+    background: #F00;
+    border-radius: 0px 50px 50px 0px;
+    border: 0px;
+
+}
+/* Footer Design */
+.footer {
+    background: #070211;
+    padding: 0 8.5%;
+
+}
+
+hr {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 50px 0;
+}
+
+.footer .contact-section {
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 0 auto;
+    font-family: Inter;
+
+}
+.footer .contact-section p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    margin: 0 auto;
+}
+
+.contact-icon p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.footer .social-media {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 24px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-bottom: 120px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 
 }
